@@ -21,18 +21,15 @@ The project follows the standard Medallion pattern focused on data quality and l
 5.  **Rollup Logic**: Aggregates daily Child Company transactions into monthly Parent Company totals.
 6.  **Serving Layer**: Optimized SQL Views for Power BI and Genie integration.
 
-![Architecture Diagram 1](consolidated_pipeline/Images for readme file/architecture_1.png)
-![Architecture Diagram 2](Images%20for%20readme%20file/architecture_2.png)
+![Architecture Diagram 1](consolidated_pipeline/Images%20for%20readme%20file/architecture_1.png)
+![Architecture Diagram 2](consolidated_pipeline/Images%20for%20readme%20file/architecture_2.png)
 
 ---
 
 ## 📊 Data Modeling (Star Schema)
 The Gold layer is designed around a **Star Schema** to provide intuitive and performant querying for BI tools.
 
-*   **Fact Table**: `Fact_Sales` (Transactions, quantities, amounts).
-*   **Dimensions**: `Dim_Product`, `Dim_Store`, `Dim_Time`, `Dim_Customer`.
-
-![Star Schema Diagram](Images%20for%20readme%20file/star_schema.png)
+![Star Schema Diagram](consolidated_pipeline/Images%20for%20readme%20file/star_schema.png)
 
 ---
 
