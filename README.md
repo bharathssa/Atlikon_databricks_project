@@ -1,7 +1,7 @@
 # FMCG Data Lakehouse Analytics: S3 to Power BI
 
 ## 📌 Project Overview
-This project implements a **Modern Data Lakehouse Architecture** using **Databricks** and **AWS S3** for a Parent-Child organizational structure in the FMCG sector. The pipeline automates the ingestion, transformation, and aggregation of retail transaction data, moving from raw landing zones to actionable business insights in Power BI.
+This project demonstrates an end-to-end Modern Data Lakehouse implementation specifically designed for the FMCG (Fast-Moving Consumer Goods) sector. It addresses the complex data engineering challenge of aggregating high-volume retail transactions from distributed 'Child' entities into unified monthly reporting for a 'Parent' organization. Leveraging Databricks and AWS S3, the solution utilizes a Medallion Architecture to ensure data quality, lineage, and high-performance analytics, ultimately serving actionable insights via Power BI and AI-driven natural language querying (Genie)
 
 ### Key Objectives:
 *   Build a robust **Medallion Architecture** (Bronze, Silver, Gold).
