@@ -39,7 +39,7 @@ The Gold layer is designed around a **Star Schema** to provide intuitive and per
 ## 📊 Dashboard (Power Bi)
 Developed an interactive performance dashboard to provide immediate visibility into core KPIs and high-value customer and product metrics.
 
-![Dashboard](consolidated_pipeline/Images%20for%20readme%20file/Dashbaord.png)
+![Dashboard](consolidated_pipeline/Images%20for%20readme%20file/Dashboard.png)
 
 ---
 
